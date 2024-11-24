@@ -1,0 +1,123 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+ul li:hover a,
+ul li.active a{
+    color: #7cf03d;
+}
+body {
+    background-color: #1f242d;
+  }
+  .container {
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+    
+  }
+  .left {
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .right {
+    width: 50%;
+    padding: 50px;
+  }
+  .right h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .forms {
+    margin-bottom: 20px;
+  }
+  .forms label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .forms input,
+  .forms textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .forms textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  .button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #555;
+  }
+  .icon {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .icon i {
+    margin-right: 10px;
+  }
+  
+  .icon a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .icon a:hover {
+    text-decoration: underline;
+  }
+  h2{
+    font-size: 32px;
+  }

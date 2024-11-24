@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f242d;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+ul li:hover a,
+ul li.active a{
+    color: #7cf03d;
+}
+.card1{
+    height: 18vh;
+    width: 500px;
+    background-color: white;
+    transform: translate(380px);
+    padding: 10px;
+    margin: 30px;
+    margin-top: 50px;
+    border: 2px solid #7cf03d;
+    border-radius: 15px;
+}
+
+.card2{
+    height: 18vh;
+    width: 500px;
+    background-color: white;
+    transform: translate(380px);
+    padding: 10px;
+    margin: 30px;
+    border: 2px solid #7cf03d;
+    border-radius: 15px;
+}
+
+.card3{
+    height: 18vh;
+    width: 500px;
+    background-color: white;
+    transform: translate(380px);
+    padding: 10px;
+    margin: 30px;
+    border: 2px solid #7cf03d;
+    border-radius: 15px;
+}
+
+h4{
+    text-align: center;
+    font-size: 15px;
+    color: #1f242d;
+}
+
+p{
+    text-align: center; 
+    color: #1f242d;  
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 110px;
+    color: white;
+}
